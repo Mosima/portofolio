@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "emailjs-com": "^2.3.2",
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
@@ -13,7 +14,11 @@
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
     "react-helmet": "^5.2.0",
-    "react-youtube": "^7.9.0"
+    "react-notifications": "^1.4.3",
+    "react-notifications-component": "^1.1.1",
+    "react-toastr": "^3.0.0",
+    "react-youtube": "^7.9.0",
+    "toastr": "^2.1.4"
   },
   "keywords": [
     "gatsby"
