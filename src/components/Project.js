@@ -12,23 +12,26 @@ class Contact extends React.Component {
     constructor(props){
       super(props)
       this.state = {
-        windowWidth: '0px'
+        windowWidth: '0'
       }
     }
 
   componentWillMount(){
     if (typeof window !== 'undefined'){
       if(window.innerWidth > 1678){
-        this.setState({windowWidth: '750px'});
+        this.setState({windowWidth: '750'});
       }
       if(window.innerWidth > 600 && window.innerWidth <= 1678){
-        this.setState({windowWidth: '550px'});
+        this.setState({windowWidth: '550'});
       }
       if(window.innerWidth <= 600){
-        this.setState({windowWidth: '450px'});
+        this.setState({windowWidth: '450'});
       }
       if(window.innerWidth <= 414){
-        this.setState({windowWidth: '325px'});
+        this.setState({windowWidth: '325'});
+      }
+      if(window.innerWidth <= 320){
+        this.setState({windowWidth: '245'});
       }
     }
   }
@@ -41,12 +44,12 @@ class Contact extends React.Component {
   render() {
     const opts = {
       // height: '390',
-       width: this.state.windowWidth + 'px',
+       width: this.state.windowWidth,
       playerVars: { // https://developers.google.com/youtube/player_parameters
         autoplay: 1
       }
     };
-    console.log('width',this.state.windowWidth)
+    console.log('mosima',this.state.windowWidth)
     return (
      
         <div>
