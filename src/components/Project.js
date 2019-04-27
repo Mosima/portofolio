@@ -16,8 +16,7 @@ class Contact extends React.Component {
       }
     }
 
-  componentWillMount(){
-    const windowGlobal = typeof window !== 'undefined' && window
+  componentDidMount(){
     
     if(window.innerWidth > 1678){
       this.setState({windowWidth: '750px'});
