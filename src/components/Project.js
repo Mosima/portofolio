@@ -5,7 +5,7 @@ import arduino from '../images/arduino.png'
 import raspi from "../images/raspi.png"
 import shot1 from '../images/IMG-20190405-WA0036.jpg'
 
-const windowGlobal = typeof window !== 'undefined' && window
+
 
 class Contact extends React.Component {
 
@@ -17,6 +17,8 @@ class Contact extends React.Component {
     }
 
   componentWillMount(){
+    const windowGlobal = typeof window !== 'undefined' && window
+    
     if(window.innerWidth > 1678){
       this.setState({windowWidth: '750px'});
     }
