@@ -41,7 +41,6 @@ class Contact extends React.Component {
         const target = event.target
         const name = target.name
         const value = target.value
-        console.log(this.state.name)
         this.setState({[name]: value})
     }
 
@@ -89,7 +88,6 @@ class Contact extends React.Component {
         emailjs.send('gmail', 'template_9CieIH9U', templateParams, 'user_hPlgsRgSxQb7GMcMUWCBd')
             .then((response) => {
                 this.addNotification()
-                console.log('SUCCESS!', response.status, response.text);
             }, (err) => {
                 console.log('FAILED...', err);
             });
