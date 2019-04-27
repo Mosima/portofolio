@@ -16,19 +16,20 @@ class Contact extends React.Component {
       }
     }
 
-  componentDidMount(){
-    
-    if(window.innerWidth > 1678){
-      this.setState({windowWidth: '750px'});
-    }
-    if(window.innerWidth > 600 && window.innerWidth <= 1678){
-      this.setState({windowWidth: '550px'});
-    }
-    if(window.innerWidth <= 600){
-      this.setState({windowWidth: '450px'});
-    }
-    if(window.innerWidth <= 414){
-      this.setState({windowWidth: '325px'});
+  componentWillMount(){
+    if (typeof window !== 'undefined'){
+      if(window.innerWidth > 1678){
+        this.setState({windowWidth: '750px'});
+      }
+      if(window.innerWidth > 600 && window.innerWidth <= 1678){
+        this.setState({windowWidth: '550px'});
+      }
+      if(window.innerWidth <= 600){
+        this.setState({windowWidth: '450px'});
+      }
+      if(window.innerWidth <= 414){
+        this.setState({windowWidth: '325px'});
+      }
     }
   }
 
