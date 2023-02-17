@@ -101,78 +101,78 @@ class Contact extends React.Component {
  
   render() {
     return (
-     
-        <div>
+     <div>hhhhh</div>
+        // <div>
 
-            <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input 
-                type="text" 
-                name="name" 
-                id="name" 
-                onChange={this.handleInputChange.bind(this)}
-                value={this.state.name}
-                required='required'
-                error={this.state.errors.name}
-                />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input
-               type="text" 
-               name="email" 
-               id="email" 
-               onChange={this.handleInputChange.bind(this)}
-               value={this.state.email}
-                required='required'
-                error={this.state.errors.email}
-               />
-            </div>
-            <div className="field">
-              <label htmlFor="email">Subject</label>
-              <input
-               type="text" 
-               name="subject" 
-               id="subject" 
-               onChange={this.handleInputChange.bind(this)}
-               value={this.state.subject}
-                required='required'
-                error={this.state.errors.subject}
-               />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea
-               name="message" 
-               id="message" 
-               rows="4" 
-               onChange={this.handleInputChange.bind(this)}
-               value={this.state.message}
-                required='required'
-                error={this.state.errors.message}
-               ></textarea>
-            </div>
-            <ul className="actions">
-              <li><input 
-              type="submit" 
-              value="Send Message"
-              name='submit'
-              className="special" 
-              onClick={this.sentMessage.bind(this)}
-              required='required'
-              /></li>
-              <li><input type="reset" value="Reset" /></li>
-            </ul>
-          </form>
-          <ul className="icons">
-            <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
-            <li><a href="https://www.linkedin.com/in/godfrey-thabulwa-1713a8b1" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
-            <li><a href="https://github.com/Mosima" className="icon fa-github"><span className="label">GitHub</span></a></li>
-          </ul>
-          <ReactNotification ref={this.notificationDOMRef} />
-        </div>
+        //     <h2 className="major">Contact</h2>
+        //   <form method="post" action="#">
+        //     <div className="field half first">
+        //       <label htmlFor="name">Name</label>
+        //       <input 
+        //         type="text" 
+        //         name="name" 
+        //         id="name" 
+        //         onChange={this.handleInputChange.bind(this)}
+        //         value={this.state.name}
+        //         required='required'
+        //         error={this.state.errors.name}
+        //         />
+        //     </div>
+        //     <div className="field half">
+        //       <label htmlFor="email">Email</label>
+        //       <input
+        //        type="text" 
+        //        name="email" 
+        //        id="email" 
+        //        onChange={this.handleInputChange.bind(this)}
+        //        value={this.state.email}
+        //         required='required'
+        //         error={this.state.errors.email}
+        //        />
+        //     </div>
+        //     <div className="field">
+        //       <label htmlFor="email">Subject</label>
+        //       <input
+        //        type="text" 
+        //        name="subject" 
+        //        id="subject" 
+        //        onChange={this.handleInputChange.bind(this)}
+        //        value={this.state.subject}
+        //         required='required'
+        //         error={this.state.errors.subject}
+        //        />
+        //     </div>
+        //     <div className="field">
+        //       <label htmlFor="message">Message</label>
+        //       <textarea
+        //        name="message" 
+        //        id="message" 
+        //        rows="4" 
+        //        onChange={this.handleInputChange.bind(this)}
+        //        value={this.state.message}
+        //         required='required'
+        //         error={this.state.errors.message}
+        //        ></textarea>
+        //     </div>
+        //     <ul className="actions">
+        //       <li><input 
+        //       type="submit" 
+        //       value="Send Message"
+        //       name='submit'
+        //       className="special" 
+        //       onClick={this.sentMessage.bind(this)}
+        //       required='required'
+        //       /></li>
+        //       <li><input type="reset" value="Reset" /></li>
+        //     </ul>
+        //   </form>
+        //   <ul className="icons">
+        //     <li><a href="#" className="icon fa-facebook"><span className="label">Facebook</span></a></li>
+        //     <li><a href="https://www.linkedin.com/in/godfrey-thabulwa-1713a8b1" className="icon fa-linkedin"><span className="label">LinkedIn</span></a></li>
+        //     <li><a href="https://github.com/Mosima" className="icon fa-github"><span className="label">GitHub</span></a></li>
+        //   </ul>
+        //   <ReactNotification ref={this.notificationDOMRef} />
+        // </div>
       
     )
   }
