@@ -1,8 +1,11 @@
 {
-  "name": "gatsby-starter-dimension-v2",
-  "description": "Gatsby Starter - Dimension V2",
-  "version": "1.0.0",
-  "author": "Hunter Chang",
+  "name": "portofolio",
+  "description": "portofolio",
+  "version": "3.0.0",
+  "engines": {
+    "node": "18.14.1"
+  },
+  "author": "Godfrey",
   "dependencies": {
     "emailjs-com": "^2.3.2",
     "gatsby": "^5.6.1",
