@@ -16,7 +16,6 @@
     "react-helmet": "^6.1.0",
     "react-notifications": "^1.7.4",
     "react-notifications-component": "^4.0.1",
-    "react-toastr": "^3.0.0",
     "react-youtube": "^10.1.0",
     "toastr": "^2.1.4"
   },
