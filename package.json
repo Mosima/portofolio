@@ -31,7 +31,8 @@
     "develop": "gatsby develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "heroku-postbuild": "gatsby build"
+    "heroku-postbuild": "gatsby build",
+    "serve": "gatsby serve"
   },
   "devDependencies": {
     "prettier": "^1.14.2"
