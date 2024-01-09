@@ -9,7 +9,7 @@ class Work extends React.Component {
         <div>
             <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <p>I am a junior developer, I have gained my 2-3 years experience at ITTHYNK SMART SOLUTIONS where I was a software developer working on software development. I developed web and mobile applications using various technologies and of course their backend, being said that it's safe to say I am a junior Fullstack developer.</p>
+          <p>I am a senior developer, I have gained my 2-3 years experience at ITTHYNK SMART SOLUTIONS where I was a software developer working on software development. I developed web and mobile applications using various technologies and of course their backend, being said that it's safe to say I am a junior Fullstack developer.</p>
           <p>My work:</p>
           <p>  •	Exposing interns to MERN Stack development (MongoDB, Express, React and Nodejs).
               <br/>•	Writing and implementing efficient code.

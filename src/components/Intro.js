@@ -9,8 +9,8 @@ class Intro extends React.Component {
         <div>
             <h2 className="major">Intro</h2>
             <span className="image main"><img src={pic01} alt="" /></span>
-            <p>I'm from South Africa Limpopo Venda in a village called Muduluni, I to school and completed my matric at Kutama Secondary School during the year 2013.</p>
-            <p>I then went to tertiary at Tshwane University of Technology registered under National Diploma of: Computer Systems Engineering. Through the course I have learned about many concepts which focus on Programming, Networks, Electronics and Digital Systems, System Analysis, Software Engineering and Databases. I love to hang out with friends and family, I watch Sci-Fi and Comedy movies, go to the park to refresh my mind and play games. Check out my <a href="https://www.youtube.com/watch?v=S-HXFUXw_1o">awesome work</a>.</p>
+            <p>I'm based in South Africa, Midrand and currently working at one odf the biggest banks in Africa.</p>
+            <p>I attended tertiary at Tshwane University of Technology registered under National Diploma of: Computer Systems Engineering. Through the course I have learned about many concepts which focus on Programming, Networks, Electronics and Digital Systems, System Analysis, Software Engineering, Data Science and Databases. I love to hang out with friends and family, I watch anime (mostly Japanese), Sci-Fi and Comedy movies, and play games. Check out my <a className='tube-link' href="https://www.youtube.com/watch?v=S-HXFUXw_1o">awesome work</a>.</p>
         </div>
       
     )
