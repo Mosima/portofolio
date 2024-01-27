@@ -49,7 +49,7 @@ class Contact extends React.Component {
         autoplay: 1
       }
     };
-    console.log('mosima',this.state.windowWidth)
+    // console.log('mosima',this.state.windowWidth)
     return (
      
         <div>
