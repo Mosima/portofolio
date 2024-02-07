@@ -7,6 +7,7 @@ export const tabs = [
             "React",
             "Java",
             "JavaScript",
+            "TypeScript",
             "HTML",
             "CSS",
             "Git",
