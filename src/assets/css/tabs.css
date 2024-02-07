@@ -2,55 +2,76 @@
   overflow: hidden;
   border: 1px solid #ccc;
   background-color: #f1f1f1;
-  position: -webkit-sticky;/* Safari */
+  position: -webkit-sticky;
+  /* Safari */
   position: sticky;
   top: 0;
 }
-  /* Style the buttons inside the tab */
-  .tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 3px 16px;
-    transition: 0.3s;
-    font-size: 17px;
-    color: black !important;
-  }
-  
-  /* Change background color of buttons on hover */
-  .tab button:hover {
-    background-color: #747173;
-    color: white !important;
-  }
-  
-  /* Create an active/current tablink class */
-  .tab button.active {
-    background-color: #747173;
-    color: #fff;
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 3px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+  color: black !important;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #4caf50;
+  color: white !important;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #747173;
+  color: #fff;
+}
+
+/* Create an focus/current tablink class */
+.tab button.active {
+  background-color: #747173;
+  color: #fff;
+}
+
+/* Style the tab content */
+.tabcontents {
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 5s;
+}
+
+ .tab-stack{
+  padding-bottom: 30px;
+  white-space: break-spaces;
+  display: inline-flex;
+  font-size: 20px;
+  gap: 5px;
+  font-weight: 900;
+}
+
+/* Fade in tabs */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
   }
 
-   /* Create an focus/current tablink class */
-   .tab button.active {
-    background-color: #747173;
-    color: #fff;
+  to {
+    opacity: 1;
   }
-  
-  /* Style the tab content */
-  .tabcontents {
-    padding: 6px 12px;
-    -webkit-animation: fadeEffect 1s;
-    animation: fadeEffect 5s;
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
   }
-  
-  /* Fade in tabs */
-  @-webkit-keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
+
+  to {
+    opacity: 1;
   }
-  
-  @keyframes fadeEffect {
-    from {opacity: 0;}
-    to {opacity: 1;}
-  }
+}

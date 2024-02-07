@@ -1,6 +1,18 @@
 export const tabs = [
     {
-        title: 'Absa',
+        title: 'Absa Bank ',
+        intro: 'Being in a financial sector have me with another sight of eyes in development, an opportunity to manage a system that gets engaged by   million customers. Besides dev I am exposed to DevOps side of the engineering which is quite fascinating. ',
+        stack: [
+            "Nodejs",
+            "React",
+            "Java",
+            "JavaScript",
+            "HTML",
+            "CSS",
+            "Git",
+            "AWS",
+            
+        ],
         list: [
             "•	Adobe AEM Developer/integration of React to AEM",
             "•	Leading frameworks such as React.js to build high-quality, scalable, and reusable components and Front-end solution.",
@@ -11,6 +23,18 @@ export const tabs = [
     },
     {
         title: 'Innov8',
+        intro: 'Being in a financial sector have me with another sight of eyes in development, an opportunity to manage a system that gets engaged by   million customers. Besides dev I am exposed to DevOps side of the engineering which is quite fascinating. ',
+        stack: [
+            "Nodejs",
+            "PostgreSQL",
+            "JavaScript",
+            "React Native",
+            "React",
+            "HTML",
+            "CSS",
+            "Git",
+            "AWS",
+        ],
         list: [
             "•	Modifying the software to fix errors, adapting it to new hardware, improving its performance, or upgrading interfaces. ",
             "•	Maintaining the Fleet System (https://www.ignixxion.com/ and https://infleetint.com/) web application using React, Nodejs, Postgres",
@@ -20,6 +44,17 @@ export const tabs = [
     },
     {
         title: 'ITTHYNK',
+        intro: 'Being in a financial sector have me with another sight of eyes in development, an opportunity to manage a system that gets engaged by   million customers. Besides dev I am exposed to DevOps side of the engineering which is quite fascinating. ',
+        stack: [
+            "Nodejs",
+            "Java",
+            "JavaScript",
+            "React",
+            "React Native",
+            "HTML",
+            "CSS",
+            "Git",
+        ],
         list: [
             "•	Exposing interns to MERN Stack development (MongoDB, Express, React and Nodejs).",
             "•	Writing and implementing efficient code.",
