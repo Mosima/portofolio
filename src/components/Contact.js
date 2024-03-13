@@ -100,8 +100,14 @@ class Contact extends React.Component {
     }
  
   render() {
-    return (
-     <div>hhhhh</div>
+      return (
+          <div>
+              <div>Mobile: 076 995 1331/067 964 5780</div>
+              <div>Email: mosimagodfrey@gmail.com</div>
+              <div><a href={'https://github.com/Mosima'}>Github: https://github.com/Mosima</a></div>
+              <div><a href={'https://www.linkedin.com/in/godfrey-thabulwa-1713a8b1/'}>LinkedIn : https://www.linkedin.com/in/godfrey-thabulwa-1713a8b1/</a></div>
+          </div>
+
         // <div>
 
         //     <h2 className="major">Contact</h2>

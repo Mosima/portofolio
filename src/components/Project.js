@@ -37,7 +37,6 @@ class Contact extends React.Component {
   }
 
     _onReady(event) {
-        
         event.target.pauseVideo();
     }
 
@@ -46,10 +45,10 @@ class Contact extends React.Component {
       // height: '390',
        width: this.state.windowWidth,
       playerVars: { // https://developers.google.com/youtube/player_parameters
-        autoplay: 1
+        autoplay: 2
       }
     };
-    console.log('mosima',this.state.windowWidth)
+    // console.log('mosima',this.state.windowWidth)
     return (
      
         <div>

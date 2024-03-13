@@ -8,10 +8,10 @@ const Header = (props) => (
         </div>
         <div className="content">
             <div className="inner">
-                <h1>GODFREY THABULWA</h1>
-                <p>WELCOME, I AM A javascript FULLSTACK DEVELOPER<br />
-                CREATING MAGIC WITH MERN STACK (MONGODB, EXPRESS, REACT, AND NODEJS).<br/>
-                apart from the above mentioned, i work on hardware and firmware using arduino and raspberry pi.</p>
+                <h1>Godfrey Mosima Thabulwa</h1>
+                <p> Hi there, I AM A javascript FULLSTACK DEVELOPER<br />
+                I am a fullstack stack developer with 6yrs+ focusing on building user friendly web applications.<br/>
+                I am not limited to the stack I am currently doing. I learn and grasp new concepts easily. Get to know me by going through my profile or we can grab a drink &#127866;</p>
             </div>
         </div>
         <nav>

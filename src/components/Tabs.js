@@ -1,47 +1,63 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../assets/css/tabs.css';
+import { tabs } from '../content/Work';
 
 function Tabs() {
-  
-    function openCity(evt, cityName) {
-        // console.log(cityName)
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    document.getElementById(cityName).style.display = "block";
-    evt.currentTarget.className += " active";
+
+    const [activeTab, setTab] = useState();
+
+    const changeWork = (e, ind) => {
+        setTab(tabs[ind])
     }
 
-  return (
-    <div>  
-        <div className="tab">
-            <button className="tablinks" onClick={()=>openCity(event, 'London')}>London</button>
-            <button className="tablinks" onClick={()=>openCity(event, 'Paris')}>Paris</button>
-            <button className="tablinks" onClick={()=>openCity(event, 'Tokyo')}>Tokyo</button>
-        </div>
+    useEffect(() => {
+        setTab(tabs[0])
+    }, [])
 
-        <div id="London" className="tabcontent">
-            <h3>London</h3>
-            <p>London is the capital city of England.</p>
-        </div>
+    return (
+        <div>
+            <div className="tab">
+                {
+                    tabs.map((tab, ind) => <button className="tablinks" onClick={(event) => changeWork(event, ind)}>
+                        {tab.title}
+                    </button>)
+                }
+            </div>
 
-        <div id="Paris" className="tabcontent">
-            <h3>Paris</h3>
-            <p>Paris is the capital of France.</p> 
-        </div>
+            <div id="tabs" className="tabcontents">
+                {
+                    activeTab ? <div id="tabs" className="tabcontents">
+                        <div className='tab-container'>
+                            <div className='tab-intro'>
+                                <p>
+                                    {activeTab.intro}
+                                </p>
+                            </div>
+                            <div className='tab-stack'>
+                                    {activeTab.stack.map((stack, ind)=>(
+                                        <div key={ind} className='stack'>
+                                            {stack}
+                                        </div>
+                                    ))}
+                            </div>
+                            <div className='tab-list'>
+                                <p>
+                                    {
+                                        activeTab.list.map((tab, ind) => (
+                                            <div key={ind}>
+                                                {tab}
+                                            </div>
+                                        ))
+                                    }
+                                </p>
+                            </div>
+                        </div>
+                    </div> : "LOADING..."
+                }
+            </div>
 
-        <div id="Tokyo" className="tabcontent">
-            <h3>Tokyo</h3>
-            <p>Tokyo is the capital of Japan.</p>
         </div>
-    </div>    
-  );
+    );
 }
 
 export default Tabs;
