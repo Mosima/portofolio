@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkportofolio=self.webpackChunkportofolio||[]).push([[771],{5283:function(e,t,o){o.r(t);var l=o(6540),n=o(4794),a=o(5105);t.default=()=>l.createElement(a.A,null,l.createElement("h1",null,"Hi from the second page"),l.createElement("p",null,"Welcome to page 2"),l.createElement(n.Link,{to:"/"},"Go back to the homepage"))}}]);
+//# sourceMappingURL=component---src-pages-page-2-js-f115dcee679cb85c43b5.js.map
